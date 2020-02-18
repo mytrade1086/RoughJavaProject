@@ -11,16 +11,5 @@ public class factorial {
 		System.out.println(sum);
 	}
 
-	public int recursion(int number) {	
-		int sum=1;
-		if (number>1) {
-			sum=sum*number;
-			number--;
-			recursion(number);
-			
-		}
-		return number;
-	}
 	
-
 }
